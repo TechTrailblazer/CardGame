@@ -2,11 +2,6 @@ package ben.kn.cardgames.util;
 
 import java.util.Random;
 
-/**
- * Utility class for creating random numbers. 
- *
- * @author Ben Knear (bknear@gmail.com)
- */
 public class RandomNumberUtil {
 	private Random ranGen = new Random();
 

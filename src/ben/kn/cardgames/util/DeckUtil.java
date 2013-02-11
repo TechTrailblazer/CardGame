@@ -8,11 +8,6 @@ import ben.kn.cardgames.Face;
 import ben.kn.cardgames.Suit;
 import ben.kn.cardgames.to.Card;
 
-/**
- * Utility class for creating decks ({@link List}s of {@link Card}s) and manipulating those decks.
- *
- * @author Ben Knear (bknear@gmail.com)
- */
 public class DeckUtil {
 	private static RandomNumberUtil randomUtil = new RandomNumberUtil();
 
