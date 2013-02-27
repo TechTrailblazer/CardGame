@@ -5,6 +5,7 @@ import ben.kn.cardgames.Suit;
 
 public class Card {
 
+	private final String HTML_FORMAT = "<span style='color:#%s'>%s %s</span>";
 	private Suit suit;
 	private Face face;
 
@@ -19,6 +20,11 @@ public class Card {
 
 	public Face getFace() {
 		return face;
+	}
+
+	public String getHtml() {
+		return String.format(HTML_FORMAT, suit.getColor().getHex(), suit.getAscii(),
+				face.getDisplay());
 	}
 
 	@Override
