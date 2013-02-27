@@ -1,0 +1,12 @@
+<ivy-module version="2.0">
+	<info organisation="ben.kn" module="cardgames" />
+	<configurations>
+		<conf name="build" visibility="private" description="compilation only need api jar" />
+		<conf name="test" extends="build" visibility="private" description="include only for testing" />
+	</configurations>
+	<dependencies>
+    	<!-- logging -->
+        <dependency org="log4j" name="log4j" rev="1.2.16" conf="build->default"/>
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.6.4"/>
+	</dependencies>
+</ivy-module>
