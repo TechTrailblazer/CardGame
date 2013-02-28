@@ -9,7 +9,7 @@ import ben.kn.cardgames.Outcome;
 import ben.kn.cardgames.to.Card;
 import ben.kn.cardgames.to.Deck;
 
-public class FourAces implements Game {
+public class AcesUp implements Game {
 	protected final Logger log = Logger.getLogger(getClass());
 
 	private Stack<Card>[] board;

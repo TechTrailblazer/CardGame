@@ -9,9 +9,9 @@ import ben.kn.cardgames.Outcome;
 import ben.kn.cardgames.to.Deck;
 import ben.kn.cardgames.util.DeckUtil;
 
-public class FourAcesJTest {
+public class AcesUpJTest {
 
-	Game game = new FourAces();
+	Game game = new AcesUp();
 
 	@Before
 	public void setUp() throws Exception {
